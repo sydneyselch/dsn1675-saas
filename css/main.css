@@ -1,0 +1,84 @@
+htmL {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+
+.billboard {
+  margin: 0 0 1.5rem;
+  padding: 0;
+  position: relative;
+}
+
+.calltoaction {
+    bottom: 0;
+    width: 100%;
+    padding: 0.843rem 0.8rem;
+    position: absolute;
+    background-color: rgba(0,0,0,0.3);
+    color: #fff;
+    font-size: 2.5rem;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-style: bold;
+    text-align: center;
+}
+
+.bucket2 {
+    margin: 1.5rem 0 1.5rem;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+}
+
+.bucket2 li {
+    float: left;
+    width: 45%;
+    margin: 0 10% 1.5rem 0;
+    padding: 0;
+}
+
+.bucket2 li:nth-child(even) {
+    margin: 0;
+}
+
+.bucket2 a {
+    display: block;
+    background-size: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    list-style-type: none;
+    text-decoration: none; 
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    text-align: center;
+    color:#614D37;
+    margin: 0;
+    padding: 100% 0 0; 
+
+}
+
+.one {
+    background-image: url(../images/wekend%20wariors.jpg);  
+}
+
+.two {
+    background-image: url(../images/chillnightin.jpg);
+}
+
+.three {
+    background-image: url(../images/hiphop.jpg);
+}
+
+.four {
+    background-image: url(../images/workout.jpg);
+}
+
+
+.bucket2 figcaption {
+    text-align:center;/* Visual Aid */
+    text-decoration:none;
+    list-style-type: none;
+    text-align:center;
+    color: #614D37;
+    margin: .5rem 0 0;
+     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+
+
