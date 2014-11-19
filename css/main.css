@@ -1,24 +1,27 @@
-htmL {
-    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-}
-
 .billboard {
   margin: 0 0 1.5rem;
   padding: 0;
   position: relative;
+    width: 100%;
+}
+
+.friends {
+    width: 100%;
+    overflow: hidden;
 }
 
 .calltoaction {
     bottom: 0;
-    width: 100%;
-    padding: 0.843rem 0.8rem;
+    padding: 0.9rem 1rem;
     position: absolute;
     background-color: rgba(0,0,0,0.3);
     color: #fff;
     font-size: 2.5rem;
+    line-height: 2.25rem;
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
     font-style: bold;
     text-align: center;
+    overflow: hidden;
 }
 
 .bucket2 {
@@ -79,6 +82,10 @@ htmL {
     color: #614D37;
     margin: .5rem 0 0;
      font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+
+h1,h2,h3 {
+    text-align: center;
 }
 
 
