@@ -39,54 +39,122 @@
             </div>
         </ul>
     </nav>
-</div> 
-            
-        <div class="gutter pad-bottom">
+</div>
+    
+  
+<div class="gutter-half pad-bottom">
     <h2 class="centeralign">Sign-up for GOTIT now!</h2>
         <p class="centeralign">It's easy to get started. Simply enter a username and password you'd like to use to begin!</p>
         
+            <h3>Login Information:</h3>
 <form action="thankyou.html" method="post">
         
-     <div>
-        <label for="name" >Username</label>
-        <input type="name" id="name" >
+     <div class="pad-bottom-half">
+        <label for="email" >Email</label>
+        <input type="email" id="email"  >
     </div>
     
-    <p class="passwordspec">*Password is case sensitive &amp; must be at least 4 characters long*
-    </p>
-        
-    <div>
+    <div class="pad-bottom-half">
         <label for="password">Password</label>
         <input type="password" id="password">
     </div>
             
-     <div>
+     <div class="push-none">
         <label for="password">Password (once more please!)</label>
         <input type="password" id="password">
     </div>
-             
-            <p class="push-none"><i>Tell us a few things:</i></p>
+    
+    <p class="micro push-none"><i>*Password is case sensitive &amp; must be at least 4 characters long*
+    </i></p>
+        
+    
+ <div>
+            <h3>Tell us about yourself:</h3>
             
+     <div>
+        <label for="name" >First Name:</label>
+        <input type="name" id="name">
+    </div>
+         
+    <div>
+        <label for="name" >Last Name:</label>
+        <input type="name" id="name" >
+    </div>
+     
+      <div>
+        <label for="name" >Street Address:</label>
+        <input type="name" id="name" >
+    </div>
+     
+      <div>
+        <label for="name" >Town/City:</label>
+        <input type="name" id="name" >
+    </div>
+     
+     <div>
+        <label for="name" >Province:</label>
+        <select>
+            <option value="AB">Alberta</option>
+            <option value="BC">British Columbia</option>
+            <option value="MB">Manitoba</option>
+            <option value="NB">New Brunswick</option>
+            <option value="NL">Newfoundland and Labrador</option>
+            <option value="NS">Nova Scotia</option>
+            <option value="ON">Ontario</option>
+            <option value="PE">Prince Edward Island</option>
+            <option value="QC">Quebec</option>
+            <option value="SK">Saskatchewan</option>
+            <option value="NT">Northwest Territories</option>
+            <option value="NU">Nunavut</option>
+            <option value="YT">Yukon</option>
+        </select>
+      </div>
+     
+     
+     
             <div class="pad-bottom-half">
                 <label for="date">Date of Birth:</label>
                 <input type="date" id="date">
             </div>
-    
-              <span class="radio">
-                <input type="radio" name="sex" value="male">
-                <label for="male">Male</label>
-                  </span>
+     
+    <div class="pad-bottom-half">
+                    <span class="radio">
+                        <input type="radio" name="payment" value="card" checked>
+                        <label for="card">Credit Card / Debit Card</label>
+                      </span>
+
+                        <div>
+                            <label for="name" >Card Number:</label>
+                            <input type="name" id="name">
+                        </div>
+        
+                    <div>
+                      
+                            <label for="date" >Expiry Date:</label>
+                            <input type="date" id="date">
+                        
+                            <label for="code" >Security Code:</label>
+                            <input type="number" id="code">
+                        
+                    </div>
+        </div>
              
+            <div>
                 <span class="radio">
-                <input type="radio" name="sex" value="female">
-                <label for="woman">Female</label>
+                    <input type="radio" name="payment" value="paypal">
+                    <label for="woman">Paypal</label>
                 </span>
+            </div>
         
     
- <div>
-    <form method="get" action="thankyou.html">
-        <button type="submit" a href="thankyou.html" alt="thank you">Sign-up now!</button>
-     </form>            
+     <div class="pad-bottom">
+        <form method="get" action="thankyou.html">
+            <button type="submit" a href="thankyou.html" alt="thank you">Sign-up now!</button>
+         </form>            
+    </div>
+</form>
+
+</div>
 </div>
             
     </body>
