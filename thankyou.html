@@ -9,26 +9,36 @@
   <link href="css/typography.css" rel="stylesheet">
 </head>
 
-<article>
+<main>
     <body>
-            
-    <header class="masthead">
-        <h1><a href="index.html" class="logo">GOTIT</a></h1>
-            <a href="#nav" class="nav-btn">Navigate</a>    
+        <div class="teal">   
+    <header role="banner" id="top" class="masthead">
+        <div class="grid">
+        <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
+            <h1><a href="index.html" class="logo">GOTIT</a></h1>
+                
+        </div>
+        
+        <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
+            <form>
+                <input type="search" name="search"></input>
+            </form>
+        </div>
+        </div>
     </header>
             
-<nav class="nav">
-    <ul>
-        <li><a href="pricing.html" alt="Pricing">Pricing</a></li>
-        <li><a href="signup.html" alt="Sign-Up">Sign-Up</a></li>
-   
-    </ul>
-</nav>
+    <nav class="nav" nav id="nav" nav role="navigation">
+        <ul>
+            <li><a href="pricing.html" alt="Pricing">Pricing</a></li>
+            <li><a href="signup.html" alt="Sign-Up">Sign-Up</a></li>
+        </ul>
+    </nav>
+</div> 
         
 <div>
     <figure class="billboard">
       <img class="friends" src="images/friends.jpg" alt="Friends">
-      <figcaption class="calltoaction">Any-song, Any-where, Any-time.</figcaption>
+      <figcaption class="calltoaction">Enjoy Premium!</figcaption>
     </figure>
 </div>
         
@@ -40,14 +50,21 @@
         
         
     </body>
+     
+</main>
+
+<div>
+<footer class="footer teal">
         
-<nav id="nav" nav class="nav">
-    <ul>
-        <li><a href="pricing.html" alt="Pricing">Pricing</a></li>
-        <li><a href="signup.html" alt="Sign-Up">Sign-Up</a></li>
-      
-    </ul>
-</nav>
+    <nav id="nav" nav class="nav" nav role="navigation">
+        <ul>
+            <li><a href="pricing.html" alt="Pricing">Pricing</a></li>
+            <li><a href="signup.html" alt="Sign-Up">Sign-Up</a></li>
+            <li><a href="#nav" class="nav-btn">Back to top</a></li>
+        </ul>
+    </nav>
         
-</article>
+</footer>
+</div> 
+
 </html>
