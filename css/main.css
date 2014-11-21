@@ -15,27 +15,6 @@ html {
   text-size-adjust: 100%;
 }
 
-@media only screen and (min-width: 60em) {
-     html {
-         font-size: 110%;
-     }
-    
-}
-
-@media only screen and (min-width: 90em) {
-     html {
-         font-size: 120%;
-     }
-    
-}
-
-@media only screen and (min-width: 120em) {
-     html {
-         font-size: 130%;
-     }
-    
-}
-
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -183,6 +162,81 @@ a:focus {
 
 .four {
     background-image: url(../images/workout.jpg);
+}
+
+.five {
+    background-image: url(../images/workout.jpg);
+}
+
+.six {
+    background-image: url(../images/workout.jpg);
+}
+
+.seven {
+    background-image: url(../images/workout.jpg);
+}
+
+.eight {
+    background-image: url(../images/workout.jpg);
+}
+
+.circle1 {
+    background: #339999;
+    width: 285px;
+    height: 285px;
+    margin:1.3rem 1.3rem 1rem;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid;
+}
+.circletype1 {
+    align-content: center;
+    text-align: center;
+    margin:0;
+    padding:3.5rem 2rem;
+    color:white;
+}
+
+.circle2 {
+    background: #339999;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    overflow: hidden;
+    margin:.5rem .5rem 1rem;
+     border: 4px solid;
+}
+
+.circletype2 {
+    align-content: center;
+    text-align: center;
+    margin:0;
+    padding:3rem 2rem;
+    color:white;
+}
+
+.circle3 {
+    background: #339999;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    overflow: hidden;
+    margin: 0 0 2rem 0;
+     border: 4px solid;
+}
+
+.circletype3 {
+    align-content: center;
+    text-align: center;
+    margin:0;
+    padding:4rem 2.2rem;
+    color:white;
 }
 
 
