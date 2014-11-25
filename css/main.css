@@ -15,9 +15,31 @@ html {
   text-size-adjust: 100%;
 }
 
+@media only screen and (min-width: 60em) {
+     html {
+         font-size: 110%;
+     }
+    
+}
+
+@media only screen and (min-width: 90em) {
+     html {
+         font-size: 120%;
+     }
+    
+}
+
+@media only screen and (min-width: 120em) {
+     html {
+         font-size: 130%;
+     }
+    
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
 
 body {
   margin: 0;
@@ -29,20 +51,19 @@ a:focus {
     outline: 3px solid white;
 }
 
+
 .nav {
     list-style: none;
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
     text-transform: uppercase;
+    text-align: center;
     overflow: hidden;
 }
 
-.nav ul{
-    list-style-type: none;
-}
-
 .nav li {
-    margin: 0;
-    padding: 0 0 0;
+    margin:0;
+    list-style-type: none;
+    text-align: center;
 }
 
 .nav a,
@@ -51,7 +72,7 @@ a:focus {
     display: block;
     color: white;
     text-decoration: none;
-    padding:1rem;
+    padding:2rem 10rem 2rem;
 }
 
 .nav a:hover,
@@ -65,28 +86,83 @@ a:focus {
 }
 
 .gotitlogo {
-   width: 60%;
-    float:left;
-    margin:1rem 1rem 0;
+    height: 9em;
+    width: auto;
+    display: block;
+    margin:1.5rem auto;
 }
 
-.logo{
-    float:left;
-    margin:0;
+.nav-btm {
+    list-style: none;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    overflow: hidden;
 }
+
+.nav-btm ul{
+    list-style-type: none;
+    text-decoration: none;
+    padding: none;
+    overflow: hidden;
+}
+
+.nav-btm li {
+    margin: 0;
+    width:auto;
+    padding: 0;
+    text-decoration: none;
+}
+
+.nav-btm a,
+.nav-btm a:link,
+.nav-btm a:visited {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding:1rem;
+}
+
+.nav-btm a:hover,
+.nav-btm a:focus,
+.nav-btm a:active,
+.nav-btm .nav-current,
+.nav-btm .nav-current:link,
+.nav-btm .nav-current:visited {
+    background-color: black;
+    color: #fff;
+}
+
+
+@media only screen and (min-width: 40em) {
+    
+    .gotitlogo {
+        float:left;
+        display: inline;
+        margin: 1.5rem 1.5rem;
+        width: auto;
+    }
+    
+    
+}
+
+@media only screen and (min-width: 60em) {
+    
+    .gotitlogo {
+        float:left;
+        display: inline;
+        margin: 1.5rem 1.5rem;
+        width: auto;
+    }
+    
+}
+
 
 .teal{
     background-color: #339999;
     overflow: hidden;
     margin: 0;
     padding: 0;
-}
-
-.search{
-    margin:1rem;
-    width:100%;
-    float:right;
-    
 }
 
 .billboard {
@@ -99,6 +175,11 @@ a:focus {
 .friends {
     width: 100%;
     overflow: hidden;
+}
+
+img {
+    display:block;
+    width:100%;
 }
 
 .calltoaction {
