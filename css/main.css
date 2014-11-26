@@ -166,6 +166,10 @@ a:focus {
 
 @media only screen and (min-width: 20em){
     
+.nav ul {
+    margin:1rem auto 0;
+}
+    
  .nav ul li {
      display:inline-block;
      width: 45%;
@@ -196,7 +200,16 @@ a:focus {
         width: 0 auto 0;
         text-align: center;
         list-style-type: none;
-        padding-bottom: 1rem;
+        padding-bottom: 0;
+    }
+    
+    .nav-btm ul{
+        margin: 1rem auto 0;
+    }
+    
+    .nav-btm ul li {
+        display: inline-block;
+        width:30%
     }
         
     
@@ -225,6 +238,19 @@ a:focus {
      .nav ul li {
      width: 10rem;
  } 
+    
+    .nav-btm {
+        float:right;
+    }
+    
+    .nav-btm ul{
+        margin: 1rem auto 0;
+    }
+    
+      .nav-btm ul li {
+        display: inline-block;
+        width:30%
+    }
 }
 
 
@@ -247,7 +273,25 @@ a:focus {
     width: 100%;
     padding: 8rem 0;
     position: relative;
-    background-image: url(../images/friends.jpg);
+    background-image: url(../images/music.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.sunset {
+    width: 100%;
+    padding: 8rem 0;
+    position: relative;
+    background-image: url(../images/sunset2.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.boat {
+    width: 100%;
+    padding: 8rem 0;
+    position: relative;
+    background-image: url(../images/boat.jpg);
     background-size: cover;
     overflow: hidden;
 }
@@ -272,12 +316,34 @@ img {
     overflow: hidden;
 }
 
-.playlists li{
-    list-style-type: none;
-}
 .playlists {
     padding-left:0;
+    padding-right: 0;
+    list-style-type: none;
+   
 }
+
+.playlists ul li{
+    list-style-type: none;
+    padding: 0 .5rem 0;
+}
+
+
+.playlists li figcaption {
+    text-align:center;
+    text-decoration:none;
+    list-style-type: none;
+    text-align:center;
+    color: #614D37;
+    margin: .5rem 0 0;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+
+.playlists figure {
+padding-left: 0;
+
+}
+
 
 .circle1 {
     background: #A00000;
@@ -336,17 +402,6 @@ img {
     margin:0;
     padding:4rem 2.2rem;
     color:white;
-}
-
-
-.bucket2 figcaption {
-    text-align:center;/* Visual Aid */
-    text-decoration:none;
-    list-style-type: none;
-    text-align:center;
-    color: #614D37;
-    margin: .5rem 0 0;
-     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 }
 
 
