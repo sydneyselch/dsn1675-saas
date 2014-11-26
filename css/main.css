@@ -53,17 +53,36 @@ a:focus {
 
 
 .nav {
-    list-style: none;
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
     text-transform: uppercase;
     text-align: center;
     overflow: hidden;
+   
 }
 
-.nav li {
-    margin:0;
+.nav ul {
+    padding-left:0;
     list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+
+.nav ul li{
+    overflow: hidden;
+    margin:0;
+    padding-left: 0;
+    list-style: none;
+    width:auto;
+    text-decoration: none;
     text-align: center;
+    overflow: hidden;
+    
+}
+    
+.nav ul li a{
+    text-decoration: none;
+    padding:.2em 1em;
 }
 
 .nav a,
@@ -72,7 +91,7 @@ a:focus {
     display: block;
     color: white;
     text-decoration: none;
-    padding:2rem 10rem 2rem;
+    padding:1rem;
 }
 
 .nav a:hover,
@@ -81,15 +100,15 @@ a:focus {
 .nav .nav-current,
 .nav .nav-current:link,
 .nav .nav-current:visited {
-    background-color: black;
-    color: #fff;
+    background-color: white;
+    color: black;
 }
 
 .gotitlogo {
     height: 9em;
     width: auto;
     display: block;
-    margin:1.5rem auto;
+    margin:1rem auto;
 }
 
 .nav-btm {
@@ -103,7 +122,7 @@ a:focus {
 .nav-btm ul{
     list-style-type: none;
     text-decoration: none;
-    padding: none;
+    padding-left:0;
     overflow: hidden;
 }
 
@@ -129,10 +148,30 @@ a:focus {
 .nav-btm .nav-current,
 .nav-btm .nav-current:link,
 .nav-btm .nav-current:visited {
-    background-color: black;
-    color: #fff;
+    background-color: white;
+    color: black;
 }
 
+.centertext {
+    width: 0 auto 0;
+    text-align: center;
+    list-style-type: none;
+    line-height: 2rem;
+    padding-bottom: 1rem;
+}
+
+.list{
+    
+}
+
+@media only screen and (min-width: 20em){
+    
+ .nav ul li {
+     display:inline-block;
+     width: 45%;
+ } 
+    
+}
 
 @media only screen and (min-width: 40em) {
     
@@ -143,6 +182,23 @@ a:focus {
         width: auto;
     }
     
+      .nav ul{
+        margin:5rem 0 0;
+        width:100%;
+        
+    }
+    
+    .circlecenter{
+        margin:0 auto 0;
+    }
+    
+    .list {
+        width: 0 auto 0;
+        text-align: center;
+        list-style-type: none;
+        padding-bottom: 1rem;
+    }
+        
     
 }
 
@@ -155,11 +211,25 @@ a:focus {
         width: auto;
     }
     
+    .nav {
+        float:right;
+        
+    }
+    
+    .nav ul{
+        margin:3.8rem 0 0;
+        width:100%;
+        
+    }    
+    
+     .nav ul li {
+     width: 10rem;
+ } 
 }
 
 
 .teal{
-    background-color: #339999;
+    background-color: #A00000 ;
     overflow: hidden;
     margin: 0;
     padding: 0;
@@ -170,10 +240,15 @@ a:focus {
   padding: 0;
   position: relative;
     width: 100%;
+    overflow: hidden;
 }
 
 .friends {
     width: 100%;
+    padding: 8rem 0;
+    position: relative;
+    background-image: url(../images/friends.jpg);
+    background-size: cover;
     overflow: hidden;
 }
 
@@ -184,7 +259,8 @@ img {
 
 .calltoaction {
     bottom: 0;
-    padding: 0.9rem 1rem;
+    padding: 0.9rem;
+    margin: 0 1rem 0;
     position: absolute;
     background-color: rgba(0,0,0,0.3);
     color: #fff;
@@ -196,76 +272,18 @@ img {
     overflow: hidden;
 }
 
-.bucket2 {
-    margin: 1.5rem 0 1.5rem;
-    padding: 0;
-    overflow: hidden;
-    list-style: none;
-}
-
-.bucket2 li {
-    float: left;
-    width: 45%;
-    margin: 0 10% 1.5rem 0;
-    padding: 0;
-}
-
-.bucket2 li:nth-child(even) {
-    margin: 0;
-}
-
-.bucket2 a {
-    display: block;
-    background-size: 100%;
-    background-position: center top;
-    background-repeat: no-repeat;
+.playlists li{
     list-style-type: none;
-    text-decoration: none; 
-    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-    text-align: center;
-    color:#614D37;
-    margin: 0;
-    padding: 100% 0 0; 
-
 }
-
-.one {
-    background-image: url(../images/weekendwariors.jpg);  
-}
-
-.two {
-    background-image: url(../images/chillnightin.jpg);
-}
-
-.three {
-    background-image: url(../images/hiphop.jpg);
-}
-
-.four {
-    background-image: url(../images/workout.jpg);
-}
-
-.five {
-    background-image: url(../images/workout.jpg);
-}
-
-.six {
-    background-image: url(../images/workout.jpg);
-}
-
-.seven {
-    background-image: url(../images/workout.jpg);
-}
-
-.eight {
-    background-image: url(../images/workout.jpg);
+.playlists {
+    padding-left:0;
 }
 
 .circle1 {
-    background: #339999;
+    background: #A00000;
     width: 285px;
     height: 285px;
-    margin:1.3rem 1.3rem 1rem;
+    margin:1.3rem 1.3rem .5rem;
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -281,7 +299,7 @@ img {
 }
 
 .circle2 {
-    background: #339999;
+    background: #A00000;
     width: 320px;
     height: 320px;
     border-radius: 50%;
@@ -301,7 +319,7 @@ img {
 }
 
 .circle3 {
-    background: #339999;
+    background: #A00000;
     width: 350px;
     height: 350px;
     border-radius: 50%;
@@ -335,6 +353,11 @@ img {
 .footer{
     padding: 0 0 5rem 0;
     overflow: hidden;
+}
+
+.legal{
+    text-align: center;
+    color:white;
 }
 
 h1,h2,h3 {
