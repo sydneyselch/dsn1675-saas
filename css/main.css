@@ -167,7 +167,6 @@ a:focus {
 }
 
 .centertext {
-    width: 0 auto 0;
     text-align: center;
     list-style-type: none;
     line-height: 2rem;
@@ -283,7 +282,6 @@ a:focus {
 
     
     .list {
-        width: 0 auto 0;
         text-align: center;
         list-style-type: none;
         padding-bottom: 0;
