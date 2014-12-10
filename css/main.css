@@ -363,11 +363,8 @@ hr{
 }
 
 .billboard {
-  margin: 0 0 1.5rem;
-  padding: 0;
-  position: relative;
-    width: 100%;
-    overflow: hidden;
+    background-color: pink;
+    padding: 2rem 1rem 4rem;
 }
 
 .friends {
@@ -404,12 +401,10 @@ img {
 
 .calltoaction {
     bottom: 0;
-    padding: 0.9rem;
+    padding:5rem 1rem 5rem;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0;
     width: 100%;
-    position: absolute;
     background-color: rgba(160,0,0,0.3);
     color: #fff;
     font-size: 2.5rem;
@@ -418,6 +413,19 @@ img {
     text-align: center;
     overflow: hidden;
 }
+
+.signup{
+    padding:1rem 4rem 1rem;
+    background-color: #FFF;
+    color:#000;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    border: 3px solid #a00;
+    float:right;
+    margin: -1rem 0 0;
+}
+
 
 .playlists {
     padding-left:0;
@@ -463,6 +471,4 @@ h1,h2,h3 {
     text-transform: capitalize; 
 }
 
-.border {
-    border: solid .5px #FFF;
-}
+
