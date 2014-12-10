@@ -122,10 +122,10 @@ a:focus {
 }
 
 .jivelogo {
-    height: 9em;
+    height: 8em;
     width: auto;
     display: block;
-    margin:1rem auto;
+    margin:1rem auto 0;
 }
 
 .nav-btm {
