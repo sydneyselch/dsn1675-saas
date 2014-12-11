@@ -263,7 +263,7 @@ h1,h2,h3 {
     height: 100%;
     text-align: center;
     overflow: hidden;
-    float:right;
+    float:left;
 }
 
 .review{
