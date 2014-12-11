@@ -244,6 +244,8 @@ h1,h2,h3 {
 .bubble-left{
     background-image: url(../images/bubble-left.svg);
     width: 100%;
+    min-width: 50%;
+    max-width: 90%;
     background-size:25rem;
     background-repeat: no-repeat;
     padding-bottom: 4.75rem;
@@ -283,68 +285,10 @@ h1,h2,h3 {
     line-height: 2rem;
     padding-bottom: 1rem;
 }
-.circle1 {
-    background: #A00000;
-    width: 285px;
-    height: 285px;
-    margin:0 auto 0;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    overflow: hidden;
-   
-}
 
 fieldset{
  border-color: #a00;   
 }
-
-.circletype1 {
-    align-content: center;
-    text-align: center;
-    margin:0 auto 0;
-    padding:5rem 2rem;
-    color:white;
-}
-
-.circle2 {
-    background: #A00000;
-    width: 320px;
-    height: 320px;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    overflow: hidden;
-    margin:.5rem auto 1rem;
-}
-
-.circletype2 {
-    align-content: center;
-    text-align: center;
-    margin:0 auto 0;
-    padding:5rem 2rem;
-    color:white;
-}
-
-.circle3 {
-    background: #A00000;
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    overflow: hidden;
-    margin: -.5rem auto 2rem;
-}
-
-.circletype3 {
-    align-content: center;
-    text-align: center;
-    margin:0 auto 0;
-    padding:6rem 2.2rem;
-    color:white;
-}
-
 
 .list{
     
