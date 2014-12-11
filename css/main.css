@@ -121,6 +121,12 @@ a:focus {
     color: black;
 }
 
+h1,h2,h3 {
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: capitalize; 
+}
+
 .jivelogo {
     height: 8em;
     width: auto;
@@ -171,7 +177,7 @@ a:focus {
     border: solid 5px #A00000;
 }
 
-.teal{
+.red{
     background-color: #A00000 ;
     overflow: hidden;
     margin: 0;
@@ -181,13 +187,11 @@ a:focus {
 .billboard {
     background-color: #a0a0a0;
     color:white;
-    padding: 1.5rem 3rem 1.5rem;
+    padding: 1.75rem 3rem 1.5rem;
     background-color: rgba(64,64,64,0.6);
 }
 
-
 .billboard h1{
-    text-transform: none;
     font-size: 2.5rem;
     line-height: 2.5rem
 }
@@ -196,22 +200,6 @@ a:focus {
     text-transform: none;
     font-weight: normal;
     line-height: 1.75rem;   
-}
-
-
-.calltoaction {
-    bottom: 0;
-    padding:5rem 1rem 5rem;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    background-color: rgba(160,0,0,0.3);
-    color: #fff;
-    font-size: 2.5rem;
-    line-height: 2.5rem;
-    font-family: 'Open Sans Condensed', sans-serif;
-    text-align: center;
-    overflow: hidden;
 }
 
 .tellmemore {
@@ -245,7 +233,6 @@ a:focus {
 }
 
 .icons{
-    width:8em;
     margin: 0 auto 0;
 }
 
@@ -255,23 +242,25 @@ a:focus {
 }
 
 .bubble-left{
-    background-image: url(../images/bubble-left.png);
+    background-image: url(../images/bubble-left.svg);
     width: 100%;
     background-size:25rem;
     background-repeat: no-repeat;
-     padding-bottom: 2rem;
+    padding-bottom: 4.75rem;
     height: 100%;
     text-align: center;
+    overflow: hidden;
 }
 
 .bubble-right{
-    background-image: url(../images/bubble-right.png);
+    background-image: url(../images/bubble-right.svg);
     width: 100%;
     background-size:25rem;
     background-repeat: no-repeat;
-    padding-bottom: 3rem;
+    padding-bottom: 5.5rem;
     height: 100%;
     text-align: center;
+    overflow: hidden;
 }
 
 .review{
@@ -434,6 +423,7 @@ hr{
     
     .tellmemore{
     color:#A00;
+    border-bottom: 1px dotted #A00;
     
     }
     
@@ -543,8 +533,8 @@ img {
     padding-left:0;
     padding-right: 0;
     list-style-type: none;
-   
 }
+
 
 .playlists a {
     text-align:center;
@@ -554,6 +544,7 @@ img {
     color: #614D37;
     overflow: hidden;
     font-family: 'Open Sans Condensed', sans-serif;
+  
 }
 
 .playlists figure {
@@ -561,11 +552,6 @@ img {
     margin-bottom: 0;
 
 }
-
-.playliststyle {
-    margin: 0 .5rem 0;
-}
-
 
 .footer{
     padding: 0 0 5rem 0;
@@ -577,10 +563,5 @@ img {
     color:white;
 }
 
-h1,h2,h3 {
-    text-align: center;
-    font-family: 'Open Sans Condensed', sans-serif;
-    text-transform: capitalize; 
-}
 
 
