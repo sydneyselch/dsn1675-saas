@@ -355,6 +355,7 @@ hr{
 
 fieldset{
     font-size: 2rem;
+    margin: 0 auto 0;
 }
 
 label{
@@ -371,7 +372,11 @@ select{
 input,
 textarea,
 select,{
-    width:12em;
+    width:10em;
+}
+
+form div{
+    padding-bottom: 1rem;   
 }
 
 button{
