@@ -16,8 +16,6 @@ html {
 }
 
 
-
-
 @media only screen and (min-width: 90em) {
      html {
          font-size: 120%;
@@ -117,8 +115,7 @@ a:focus {
 .nav .nav-current,
 .nav .nav-current:link,
 .nav .nav-current:visited {
-    background-color: white;
-    color: black;
+    border-bottom: 1px dotted white;
 }
 
 h1,h2,h3 {
@@ -172,9 +169,8 @@ h1,h2,h3 {
 .nav-btm .nav-current,
 .nav-btm .nav-current:link,
 .nav-btm .nav-current:visited {
-    background-color: white;
-    color: black;
-    border: solid 5px #A00000;
+    color: white;
+    border-bottom: dotted 1px white;
 }
 
 .red{
@@ -185,10 +181,11 @@ h1,h2,h3 {
 }
 
 .billboard {
-    background-color: #a0a0a0;
+    background-size: cover;
     color:white;
     padding: 1.75rem 3rem 1.5rem;
-    background-color: rgba(64,64,64,0.6);
+    background-color: rgba(64,64,64,0.9);
+    background-image: url(../images/flowers.jpg);
 }
 
 .billboard h1{
@@ -225,7 +222,7 @@ h1,h2,h3 {
 .signupbutton a:hover{
     background-color: #A00;
     color:white;
-    border: solid 3px white;
+    border: 3px solid black;
 }
 
 .signupbutton{
@@ -237,26 +234,31 @@ h1,h2,h3 {
     text-align: center;
     align-content: center;
     display: block;
-    border: 3px solid white;
+    border: 3px solid #a00;
     padding:1rem 0 1rem;
     width: 100%;
     font-size:1.5rem;
     text-transform: capitalize;
     font-weight: bold;
-    color:white;
-    background-color: #a00;
+    color:black;
+    background-color: white;
     overflow: hidden;
 }
 
 .signupfree a:hover{
-    background-color: white;
-    color:#a00;
-    border: 3px solid #a00;
+    background-color: #a00;
+    color:white;
+    border: 3px solid black;
 }
 
 .signupfree{
     list-style-type: none;   
 }
+
+.lightgrey{
+    background-color: #efefef;   
+}
+
 .icons{
     margin: 0 auto 0;
 }
@@ -276,7 +278,8 @@ h1,h2,h3 {
 .bubble-left{
     background-image: url(../images/bubble-left.svg);
     background-repeat: no-repeat;
-    width:10e0%;
+    background-position: center;
+    background-size: 20em;
     padding-bottom: 5.5rem;
     height: auto;
     text-align: left;
@@ -299,17 +302,33 @@ h1,h2,h3 {
 
 .pricing {
     border: 1px solid #a0a0a0;
+    background-color: white;
 
 }
 
 .pricingfree {
     border: 1px solid #a0a0a0;
-
+    background-color: white;
 }
 
 .pricing h3,
 .pricing p{
  margin: 1rem auto 1rem;   
+}
+
+.pricingsection figure img{
+    height: 3rem;
+
+}
+
+.icontext{
+    padding: 1rem;
+    text-align: center;
+    
+}
+
+.icontext:last-child{
+    margin-right: 0;
 }
 
 .centertext {
@@ -333,6 +352,49 @@ fieldset{
 hr{
     border: solid 15px #a00000;
 }
+
+fieldset{
+    font-size: 2rem;
+}
+
+label{
+    display:block;
+    font-size: 1.25rem;
+}
+
+input, 
+textarea,
+select{
+ font-size: 1.5rem;
+}
+
+input,
+textarea,
+select,{
+    width:12em;
+}
+
+button {
+    text-decoration: none;
+    text-align: center;
+    align-content: center;
+    display: block;
+    border: 3px solid #a00;
+    padding:1rem 0 1rem;
+    width: 100%;
+    font-size:1.5rem;
+    text-transform: capitalize;
+    color:black;
+    background-color: white;
+    overflow: hidden;
+    cursor:pointer;
+    
+}
+
+.formpad{
+    margin:0 auto 0;   
+}
+
 
 @media only screen and (min-width: 20em){
     
