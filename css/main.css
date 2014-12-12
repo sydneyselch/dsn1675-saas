@@ -356,6 +356,7 @@ hr{
 fieldset{
     font-size: 2rem;
     margin: 0 auto 0;
+    width: 100%;
 }
 
 label{
@@ -369,11 +370,10 @@ select{
  font-size: 1.5rem;
 }
 
-input,
-textarea,
-select,{
-    width:10em;
+input{
+ width: 100%   
 }
+
 
 form div{
     padding-bottom: 1rem;   
@@ -421,6 +421,10 @@ button:hover{
      .pricingfree{
         margin:0 .5rem 0;   
     }
+    
+    .formpad{
+        margin:0 .5rem 0;   
+    }
 
 }
 
@@ -430,6 +434,10 @@ button:hover{
     .pricingfree{
         margin:0 3rem 0;   
     }
+    
+    .formpad{
+        margin:0 4rem 0;   
+}
     
     
 }
@@ -490,10 +498,12 @@ button:hover{
     }
     
     .pricingfree {
-     margin: 8.8rem 2rem 0;   
+        margin: 8.8rem 2rem 0;   
     }
-
     
+    .formpad{
+        margin:0 10rem 0;   
+}    
 }
 
 
@@ -505,6 +515,10 @@ button:hover{
      .pricingfree {
      margin: 7.5rem 3rem 0;   
     }
+    
+    .formpad{
+        margin:0 15rem 0;   
+}
     
 }
 
@@ -573,6 +587,9 @@ button:hover{
      margin: 8.8rem 6rem 0;   
     }
     
+    .formpad{
+        margin:0 20em 0;   
+    }
 }
 
 
