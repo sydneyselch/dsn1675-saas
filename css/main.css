@@ -193,7 +193,7 @@ h1,h2,h3 {
 .billboardpricing {
     background-size: cover;
     color:white;
-    padding: 1.75rem 3rem 1.5rem;
+    padding: 4rem 3rem 4rem;
     background-color: rgba(64,64,64,0.9);
     background-image: url(../images/sunset2.jpg);
     position: relative;
@@ -213,8 +213,8 @@ h1,h2,h3 {
 .billboard h1,
 .billboardpricing h1,
 .billboardsignup h1{
-    font-size: 2.5rem;
-    line-height: 2.5rem
+    font-size: 4rem;
+    line-height: 4rem
 }
 
 .billboard h3,
@@ -294,6 +294,18 @@ h1,h2,h3 {
     text-align: center;
 }
 
+.price {
+    font-size: 2rem;
+    color:#a00;
+}
+
+.pricename{
+    font-size: 2.5rem;   
+    
+}
+
+
+
 .bubbles{
     margin-left: auto;
     margin-right: auto;
@@ -338,6 +350,7 @@ h1,h2,h3 {
     background-color: white;
     padding: 1.5rem 1.5rem 1rem;
 }
+
 .pricingfree p{
   margin: 1rem auto 0;   
 }
@@ -391,11 +404,6 @@ label{
     font-size: 1.25rem;
 }
 
-.radiospan{
-    white-space: nowrap;
-    display:inline-block;
-}
-
 input, 
 textarea,
 select{
@@ -407,6 +415,30 @@ select{
  width: 100%   
 }
 
+.radio {
+    border-style: none;
+    padding: 0;
+}
+
+.radiospan {
+    white-space: nowrap;
+}
+
+.radiospan label,
+.radiospan input{
+    display:inline-block;
+}
+
+.radiospan input{
+    margin-right:0;
+    padding-right: 0;
+    width: 5%;
+}
+
+.radiospan label{
+    margin-left:0;
+    padding-left: 0;
+}
 
 form div{
     padding-bottom: 1rem;   
@@ -514,7 +546,10 @@ img {
    width: 100%;
 }
 
-
+.login{
+    margin:.5rem .5rem 0;
+    
+}
 
 
 @media only screen and (min-width: 20em){
@@ -543,12 +578,16 @@ img {
     
     .pricing,
     .pricingfree{
-        margin:0 3rem 0;   
+        margin:0 1rem 0;   
     }
     
     .formpad{
         margin:0 4rem 0;   
 }
+    
+    .login{
+     margin:.5rem 5rem 0;   
+    }
     
     
 }
@@ -621,12 +660,17 @@ img {
     }
     
     .pricingfree {
-        margin: 8.8rem 2rem 0;   
+        margin: 0 2rem 0;   
     }
     
     .formpad{
         margin:0 10rem 0;   
 }    
+    
+     .login{
+     margin:.5rem 7rem 0;   
+    }
+    
 }
 
 
@@ -636,12 +680,16 @@ img {
     }
     
      .pricingfree {
-     margin: 7.5rem 3rem 0;   
+     margin: 0 3rem 0;   
     }
     
     .formpad{
         margin:0 15rem 0;   
 }
+    
+     .login{
+         margin:.5rem 10rem 0;   
+    }
     
 }
 
@@ -707,7 +755,7 @@ img {
     }
     
      .pricingfree {
-     margin: 8.8rem 6rem 0;   
+     margin: 0 6rem 0;   
     }
     
     .formpad{
@@ -716,6 +764,10 @@ img {
     
     .playlists figure {
        margin: 2rem;
+    }
+    
+     .login{
+        margin:.5rem 20rem 0;   
     }
     
 }
