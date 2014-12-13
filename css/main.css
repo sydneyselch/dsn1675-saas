@@ -316,18 +316,19 @@ h1,h2,h3 {
 .bubble-left{
     background-image: url(../images/bubble-left.svg);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 20em;
-    padding-bottom: 5.5rem;
+    background-position: cover;
+    background-size: 25em;
+    padding-bottom: 10em;
     height: auto;
-    text-align: left;
+    text-align: center;
     margin: 0 auto 0;
 }
 
 .bubble-right{
     background-image: url(../images/bubble-right.svg);
     background-repeat: no-repeat;
-    padding-bottom: 5.5rem;
+    background-size: 25em;
+    padding-bottom: 10em;
     height: auto;
     text-align: center;
     overflow: hidden;
@@ -335,7 +336,7 @@ h1,h2,h3 {
 }
 
 .review{
-    margin: 3rem 4rem 0;
+    margin: 4rem 4rem 0;
 }
 
 .pricing {
@@ -690,6 +691,9 @@ img {
      .login{
          margin:.5rem 10rem 0;   
     }
+    
+
+    
     
 }
 
