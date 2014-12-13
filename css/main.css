@@ -555,11 +555,11 @@ img {
 
 @media only screen and (min-width: 20em){
     
-    .nav ul {
+    .navtop ul {
         margin:1rem auto 0;
     }
 
-     .nav ul li {
+     .navtop ul li {
          display:inline-block;
          width: 45%;
      } 
@@ -620,7 +620,7 @@ img {
         width: auto;
     }
     
-      .nav ul{
+      .navtop ul{
         margin:4.3rem 0 0;
         width:100%;
         
@@ -713,18 +713,18 @@ img {
         width: auto;
     }
     
-    .nav {
+    .navtop {
         float:right;
         
     }
     
-    .nav ul{
+    .navtop ul{
         margin:3.8rem 0 0;
         width:100%;
         
     }    
     
-     .nav ul li {
+     .navtop ul li {
      width: 10rem;
     } 
     
@@ -736,7 +736,7 @@ img {
         margin: 1rem auto 0;
     }
     
-      .nav-btm ul li {
+    .nav-btm ul li {
         display: inline-block;
         width:30%
     }
